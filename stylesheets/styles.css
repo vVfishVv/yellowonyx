@@ -25,9 +25,9 @@ p
 {
 	border: solid red 1px;
 }
-h1
+#yo
 {
-	font: fantasy; size: 22px; color: bronze; border-bottom: black;
+	font: fantasy; size: 12px; color: bronze; border-bottom: black; 
 }
 #javascript
 {
@@ -36,4 +36,8 @@ h1
 .js
 {
 	color: navy; font-size: 12px; font-style: normal; float: right; border: solid;
+}
+#yologo
+{
+	border: solid amber 20px; margin: 2,2em; padding: 1,1px;
 }
