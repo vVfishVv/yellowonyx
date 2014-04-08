@@ -66,13 +66,17 @@ body
 	border-radius:25px;
 	background-color: #003366;
 	padding: 1, 30px;
-	width: 200px;
+	width: 122px;
 	
 	
 }
 .js
 {
-	color: navy; font-size: 12px; font-style: normal; align:auto; border: solid;
+	color: navy; 
+	font-size: 12px; 
+	font-style: normal; 
+	border: solid;
+	border-radius: 25px;
 }
 img#yologo
 {
