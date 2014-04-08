@@ -61,11 +61,18 @@ body
 }
 #javascript
 {
-	border: solid blue 10px;
+	border: solid blue 4px;
+	margin: 5px;
+	border-radius:25px;
+	background-color: #003366;
+	padding: 1, 30px;
+	width: 200px;
+	
+	
 }
 .js
 {
-	color: navy; font-size: 12px; font-style: normal; float: right; border: solid;
+	color: navy; font-size: 12px; font-style: normal; align:auto; border: solid;
 }
 img#yologo
 {

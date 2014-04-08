@@ -1,6 +1,7 @@
-<script type="text/javascript">
-<!--
+function buttonMash()
+{
 //assignments
+	var script;
 var typedYes = yes;
 var enterCount = 0;
 //input
@@ -10,14 +11,10 @@ while (typedYes == "yes") //start loop
 {
 	enterCount = enterCount + 1;
 
-typedYes = prompt("Are you going to hit enter again? (hit enter or type no)", "yes");
+typedYes = alert("Hit enter to keep going or type anything else and enter to stop", "yes");
 }//end loop bracket
-	
-	
+//div get	
+script = document.getElementById('script')
 //output
-document.write("You mashed the enter key " + enterCount + " times!")
-document.write("<br>")
-
-
-// -->
-</script>
+script_div.innerHTML = alert(""You mashed the enter key " + enterCount + " times!"")
+}
