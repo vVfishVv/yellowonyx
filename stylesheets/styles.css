@@ -1,26 +1,41 @@
+#logobed
+{
+	background-color: #FFFF00;
+	width: 85%;	
+	height: 104px;
+    border: solid white 1px;
+}
 #linkcolors
 {
-	link color:#FFCC66; 
-    visited color:#FF0000;
-    hover color:#FF00FF;  
-    active color:#0000FF; 
+	link: color #FFCC66; 
+    visited: color #FF0000;
+    hover: color #FF00FF;  
+    active: color #0000FF; 
+}
+.body
+{
+	text-indent:15px;
+	border: solid #000000 5, 10, 5, 5px;
+	border-color: #000000;
+	background-color:#000000; 
+	text-align: left;
+}
+#pborders
+{
+	border: solid white 1px; 
+	background-color:#FFD700;height:auto;width:300px;inline;
 }
 body
 {
-	background-color: #000000;
+	background-color: #080000;
 	color: #FFC200;
 }
-p
-{
-	border: solid #300000 5, 10, 5, 5px;
-	border-color: #300000;
-	background-color:#300000; 
-}
+
 #welcome
 {
-	text-shadow: gold 5, 2;
 	margin: 0px, 5px;
 	color: #FFCC00;
+	background-color:#080000;
 	text-align: center;
 }
 #nav li
@@ -34,11 +49,15 @@ p
 }
 #navborder
 {
-	border: #300000 20px threedhighlight;
+	border: color #300000 20px;
 }
 #yo
 {
-	font: fantasy; size: 12px; color: bronze; border-bottom: black; 
+	font: fantasy; 
+	size: 12px; 
+	color: bronze; 
+	border-bottom: black;
+	text-align: center;
 }
 #javascript
 {
@@ -48,13 +67,14 @@ p
 {
 	color: navy; font-size: 12px; font-style: normal; float: right; border: solid;
 }
-#yologo
+img#yologo
 {
 	border: solid black 2px; 
 	margin: 5 px; 
-	padding: 5, 5, 5, 5px;
+	padding: 50, 50px;
 	hover: opacity:0.4;
     hover: filter:alpha(opacity=40);
+    
 }
 #space
 {
@@ -70,9 +90,26 @@ margin-bottom:10px;
 margin-right:50px;
 margin-left:50px;
 }
-#logobed
+#aside
 {
-	background-color: #FF9933;
-	width: 85%;	
-	height: 120px;
+	float: right;
+	padding: 25px;
+    box-shadow: 6px 6px 3px #404040;
+	width: 400 px;
+	border: double #900000  4px;
+	border-radius:25px;
+	margin:5px;
+}
+#yomusic
+{
+	color: white;
+	align: center;
+	padding: 10px;
+    box-shadow: 6px 6px 3px #404040;
+	width: 200 px;
+	border: double #FFCC00  4px;
+	border-radius:25px;
+	margin:5px;
+	hover: opacity:0.4;
+    hover: filter:alpha(opacity=40);
 }
