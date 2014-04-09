@@ -2,7 +2,7 @@ function buttonMash()
 {
 //assignments
 	var script;
-var typedYes = yes;
+var typedYes = "yes";
 var enterCount = 0;
 var bpm = 0;
 //input
